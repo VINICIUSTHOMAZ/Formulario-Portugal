@@ -83,6 +83,14 @@ body {
 
    @media (max-width: 480px) {
     
+    .logo {
+        
+      display: flex;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+       
+    }
 
     .form-group {
        
