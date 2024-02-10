@@ -81,58 +81,53 @@ body {
     
    }
 
-   @media (max-width: 480px) {
-    
-    .logo {
-        
-      display: flex;
-      position: absolute;
-      align-items: center;
-      justify-content: center;
-       
-    }
-
-    .form-group {
-       
-        max-width: 320px;
-    }
   
-    input,
-    textarea {
-        margin-bottom: 15px;
-    }
+  /* Your existing CSS code */
 
-    footer {
-        position: absolute;
-        bottom: 0;
-        font-size: 0.9rem;
-        
-    }
+/* iPhone 6/7/8 */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    padding: 40px;
   }
-  
-  @media (max-width: 767.98px) {
-    label {
-      display: block;
-    }
 
-    .form-group {
-       
-        margin-top: 15px;
-        width: 500px;
-    }
-
-    .logo img{
-    
-        max-width: 60%;
-        height: auto;
-        margin-bottom: 100px;
-      }
-  
-    input,
-    textarea {
-      margin-bottom: 1rem;
-    }
+  .logo img {
+    margin-bottom: 100px;
   }
+
+  .form-group {
+    width: 100%;
+  }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    padding: 30px;
+  }
+
+  .logo img {
+    margin-bottom: 100px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}
+
+/* iPhone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    padding: 20px;
+  }
+
+  .logo {
+    margin-bottom: 100px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}
 
   @media (max-width: 1199.98px) {
     label {
